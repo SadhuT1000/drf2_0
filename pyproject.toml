@@ -6,6 +6,12 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 
+[tool.poetry.packages]
+packages = [
+    { include = "lms_drf" }
+]
+
+
 
 
 [tool.poetry.dependencies]
