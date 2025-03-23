@@ -4,12 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
-
-[tool.poetry.packages]
-packages = [
-    { include = "lms_drf" },  # Укажите правильное имя директории
-]
-
+package-mode = false
 
 
 
